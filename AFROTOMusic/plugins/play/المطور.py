@@ -9,13 +9,13 @@ import config
 )
 async def maker(client: Client, message: Message):
     await message.reply_photo(
-        photo="https://te.legra.ph/file/4159620b551a2bb676482.jpg",
-        caption="• Dev Bot ↦ ميوزك \n ━━━━━━━━━━━━ \n • Dev ↦  @EE77n . ",
+        photo="https://graph.org/file/e254d61318e928efc7504.jpg",
+        caption="• Dev Bot ↦ ميوزك \n ━━━━━━━━━━━━ \n • Dev ↦  @D_3_X . ",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ᯓ𓆩𖡡𓏺.𝑨𝑳𝒁𝑨𝑰𝑴.𓏺𖡡𓆪", url=f"tg://openmessage?user_id={config.OWNER_ID}"
+                        "𝗠𝗢𝗛𝗔𝗠𝗠𝗘𝗗 •𝖮𝖡𝖨𝖳𝖮", url=f"tg://openmessage?user_id={config.OWNER_ID}"
                     ),
                 ],
                 [

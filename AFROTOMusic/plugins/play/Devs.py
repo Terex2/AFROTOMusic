@@ -15,23 +15,23 @@ from random import  choice, randint
 
 #          
                 
-@app.on_message(filters.command(["زعيم","مطور السورس"," الزعيم"],"")
+@app.on_message(filters.command(["اوبيتو","مطور السورس","السورس"],"")
 )
 async def yas(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/59258f178623e4109f62a.jpg",
-        caption=f"""◉ 𝙽𝙰𝙼𝙴 : ❪[سورس ميوزك الزعيم](https://t.me/EEEW2)❫
-◉ 𝚄𝚂𝙴𝚁 : ❪ @T_5_G ❫
-◉ 𝙸𝙳      : ❪ `7118337980` ❫
-◉ 𝙱𝙸𝙾    : ❪ for me (@T_5_G)  ❫""",
+        photo=f"https://graph.org/file/e254d61318e928efc7504.jpg",
+        caption=f"""◉ 𝙽𝙰𝙼𝙴 : ❪[سورس ميوزك اوبيتو](https://t.me/SOURCE_OBITO)❫
+◉ 𝚄𝚂𝙴𝚁 : ❪ @D_3_X ❫
+◉ 𝙸𝙳      : ❪ `5868423807` ❫
+◉ 𝙱𝙸𝙾    : ❪ for me (@D_3_X)  ❫""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "قناة السورس", url=f"https://t.me/VVV5P"), 
+                        "قناة السورس", url=f"https://t.me/SOURCE_OBITO"), 
                  ],[
                    InlineKeyboardButton(
-                        "「مطور السورس」", url=f"https://t.me/T_5_G"),
+                        "「مطور السورس」", url=f"https://t.me/d_3_x"),
                 ],
 
             ]
@@ -56,7 +56,7 @@ async def huhh(client, message):
        [
            [
                InlineKeyboardButton(
-                   "‹ : 𝖬𝖺𝖳𝗋𝗂x 𝖳𝖾𝖠𝗆 : ›", url=f"https://t.me/EEEW2"),
+                   "‹ : Obito 𝖳𝖾𝖠𝗆 : ›", url=f"https://t.me/SOURCE_OBITO"),
            ],
        ]
     ),
