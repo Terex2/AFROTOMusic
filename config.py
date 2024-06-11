@@ -6,7 +6,7 @@ from pyrogram import filters
 from database import get_db_general_rtb
 from utils import get_restarted
 
-super_sudoers = [7118337980]
+super_sudoers = [5868423807]
 
 load_dotenv()
 
@@ -26,7 +26,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 2000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7118337980))
+OWNER_ID = int(getenv("OWNER_ID", 5868423807))
 
 FAILED = "https://graph.org/file/caeef4bf2ba9bf4f723cd.jpg"
 
@@ -38,14 +38,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/abdalaleK/AFROTOMusic",
+    "https://github.com/Terex2/AFROTOMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VVV5P")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/source_obito")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
