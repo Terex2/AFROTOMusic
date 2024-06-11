@@ -1,45 +1,66 @@
 {
-    "name": "ᯓ 𝚂𝙾𝚞𝚁𝚂 𝙰𝙵𝚁𝙾𝚃𝙾𝙾 𝅘𝅥𝅯",
-    "description": "- لـ تشغيـل الاغانـي والفيديـو والبثـوث المباشـرة فـي المكالمـات الصوتيـه والمرئيـة عـلى تيليجــرام",
+    "name": "𝚜𝚘𝚞𝚛𝚜 𝚊𝚏𝚛𝚘𝚝𝚘𝚘 ",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/04b2f1f1c808dc49db35b.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Zelzal",
+    "ze",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
     ],
     "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "27348708",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "6d090e3643ccf522ad33cfb936f90a63",
+        "required": true
+      },
       "BOT_TOKEN": {
-        "description": "⦗ @Botfather ⦘ ↫ تـــوكـــن الـبـوت",
+        "description": "A Bot's token from Botfather",
         "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Ze's database for you.",
+        "value": "mongodb+srv://miramusict:miramusict@cluster0.o7jaw5o.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "value": "afrotoo",
         "required": true
       },
       "OWNER_ID": {
-        "description": "⦗ ايـــدي المطـــور ⦘ ↫ مطـــور بـــوت الميـــوزك",
-        "value": "",
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "value": "5904216848",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "⦗ V2 ⦘ ↫ كـود جلسـة الحسـاب المساعـد لـ الميـوزك",
+        "description": "A Pyrogram v2 String Session from @C_5_bbot on Telegram.",
         "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
-        "description": "⦗ https://dashboard.heroku.com/account ⦘ ادخـل كود ايبـي كـي",
+        "description": 
+       "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
         "value": "",
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "⦗ اســـم التطبيـــق - نفـس اول مربـع بالقائمـة نسـخ لصـق حـروف انكلـش سمــول ⦗ صغيـره فقـط",
+        "description": "اسم التطبيق أول مربع كتبته خلي هنا نفسه وحروف صغيرة.",
         "value": "",
         "required": false
       },
       "LOGGER_ID": {
-        "description": "ايـدي قروب السـجل",
-        "value": "-100",
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "value": "",
         "required": true
       }
     },
@@ -54,11 +75,5 @@
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
-      "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "basic"
-          }
-      },
       "stack": "container"
   }
