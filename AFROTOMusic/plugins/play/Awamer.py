@@ -39,7 +39,7 @@ async def cr_source(client: Client, message: Message):
                      " اوامــر المطــور ", callback_data="zzzdv"),
                  ],[
                     InlineKeyboardButton(
-                        "𝗠𝗢𝗛𝗔𝗠𝗠𝗘𝗗 •𝖮𝖡𝖨𝖳𝖮", url="https://t.me/d_3_x"),
+                        "𝖮𝖡𝖨𝖳𝖮", url="https://t.me/source_obito"),
                 ],
             ]
         ),
